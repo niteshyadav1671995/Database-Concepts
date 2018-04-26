@@ -47,3 +47,4 @@ Where should always come before having and will be executed before the having an
 Joins Used With On Clause
 
 In case of Joins always Condition will be specified using the On Clause 
+also use where clause

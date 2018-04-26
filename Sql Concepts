@@ -1,0 +1,49 @@
+<----------------------------------------------------->          
+https://docs.oracle.com/cd/E11882_01/server.112/e41084.pdf                                                                    
+<_____________________________________________________>
+                                                        Ways For deletion
+
+Delete From table_name 
+Will only delete the data not the schema of the table
+
+Delete From <table_name> where <condition> 
+will delete the record from the table according to the condition 
+
+Drop table <table_name>
+this will drop the table with its data and as well as the schema
+
+Drop database <database_name>
+this will delete the whole database with its schema
+
+TRUNCATE TABLE table_name;
+This will delete the data inside the table but not the schema of the table
+
+Drop schema <database_name>
+This will delete the database 
+
+
+Table - Entity
+Column - Fields
+Rows - Records
+
+
+Order of Execution of clause in every sql query this is on the basis of examples and observing queries
+
+From
+Where 
+Group By and aggregate Functions
+Having
+Select
+Order By
+Distinct
+Limit/Offset
+
+
+in case of group by having and aggregate function 
+group by will execute first and on each group the aggregate function will be executed and then finally the having clause will applied on
+them at the last
+Where should always come before having and will be executed before the having and group by clause
+
+Joins Used With On Clause
+
+In case of Joins always Condition will be specified using the On Clause 
